@@ -1,17 +1,12 @@
 {
-  "name": "module-seed",
+  "name": "mongo-event-repository",
   "version": "0.0.2",
   "description": "Seed repo for new node modules",
   "main": "lib/index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha test"
-  },
+
   "repository": {
     "type": "git",
-    "url": "git://github.com/ivpusic/node-module-seed.git"
+    "url": "git://github.com/vigneshnrfs/mongo-event-repository.git"
   },
   "keywords": [
     "seed",
@@ -21,12 +16,16 @@
     "projects",
     "express"
   ],
-  "author": "Ivan Pusic",
+  "author": "Vignesh Jagadeesh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ivpusic/node-module-seed/issues"
+    "url": "https://github.com/vigneshnrfs/mongo-event-repository/issues"
   },
-  "devDependencies": {
-    "mocha": "~1.13.0"
+
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "ioredis": "^1.15.1",
+    "lodash": "^4.11.1",
+    "mongodb": "^2.1.18"
   }
 }
