@@ -3,7 +3,6 @@
   "version": "0.0.2",
   "description": "Seed repo for new node modules",
   "main": "lib/index.js",
-
   "repository": {
     "type": "git",
     "url": "git://github.com/vigneshnrfs/mongo-event-repository.git"
@@ -21,11 +20,11 @@
   "bugs": {
     "url": "https://github.com/vigneshnrfs/mongo-event-repository/issues"
   },
-
   "dependencies": {
     "bluebird": "^3.3.5",
     "ioredis": "^1.15.1",
     "lodash": "^4.11.1",
-    "mongodb": "^2.1.18"
+    "mongodb": "^2.1.18",
+    "shortid": "^2.2.6"
   }
 }
