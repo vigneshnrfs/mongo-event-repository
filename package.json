@@ -1,19 +1,15 @@
 {
   "name": "mongo-event-repository",
   "version": "0.0.2",
-  "description": "Seed repo for new node modules",
+  "description": "Event Sourcing for nodejs",
   "main": "lib/movent.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/vigneshnrfs/mongo-event-repository.git"
   },
   "keywords": [
-    "seed",
-    "node",
-    "repo",
-    "new",
-    "projects",
-    "express"
+    "microservices",
+    "eventsource"
   ],
   "author": "Vignesh Jagadeesh",
   "license": "MIT",
@@ -25,7 +21,7 @@
     "ioredis": "^1.15.1",
     "lodash": "^4.11.1",
     "mongodb": "^2.1.18",
-    "shortid": "^2.2.6",
+    "shortid32": "^0.1.1",
     "winston": "^2.2.0"
   }
 }
